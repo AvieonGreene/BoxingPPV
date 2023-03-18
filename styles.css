@@ -160,6 +160,16 @@ footer,p {
     margin: 10px;
 }
 
+ .Boxing_Gloves {
+    width: 100px;
+    margin-left: 625px;
+}
+
+.pricing-plan {
+    display: inline-block;
+    margin-left: 40px;
+}
+
 
 
 
