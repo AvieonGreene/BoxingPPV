@@ -170,6 +170,52 @@ footer,p {
     margin-left: 40px;
 }
 
+ .faq {
+    margin: 100px auto;
+    width: 600px;
 
+}
 
+ .faq li{
+    list-style: none;
+    width: 100%;
+    margin-bottom: 10px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0, 0.15);
+}
+
+.faq li label {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #009578;
+}
+
+.faq li label span {
+    transform: rotate(90deg);
+    font-size: 22px;
+    color: #333;
+}
+
+.faq label + input[type="radio"] {
+    display: none;
+}
+
+.faq  .content{
+padding: 0px 10px;
+line-height: 26px;
+max-height:0;
+overflow: hidden;
+transition: max-height 0.5s;
+}
+
+.faq label + input[type="radio"]:checked + .content{
+max-height: 400px;
+}
 
