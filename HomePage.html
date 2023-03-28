@@ -20,13 +20,14 @@
 </head>
 <body>
     <header>
-        <h1>Boxing PPV'S</h1>
+        <h1 class="title">Boxing PPV'S</h1>
+
             <nav>
-                <ul class="nav__links">
+                <ul  id="header_navs"class="nav__links">
                     <li><a href="#HomePage.html">Home</a></li>
                    <li><a href="#AboutUs.html">About us</a></li> 
                     <li><a href="#Contact.html">Contact</a></li>
-                    </ul>
+                    </ul>   
         </nav>
     </header>
 
@@ -50,7 +51,7 @@
     </div>
     <div class="pricing-plan__actions">
         <p class="pricing-plan__cost"> $59.99</p>
-        <p class="pricing-plan__text"> Per month</p>
+        <p class="pricing-plan__text"> Per Year</p>
         <a href="./" class="pricing-plan__button">Apply here</a>
     </div>
     </section>
@@ -75,7 +76,7 @@
         </div>
         <div class="pricing-plan__actions">
             <p class="pricing-plan__cost"> $99.99</p>
-            <p class="pricing-plan__text"> Per month</p>
+            <p class="pricing-plan__text"> Per Year</p>
             <a href="./" class="pricing-plan__button">Apply here</a>
         </div>
         </section>
@@ -96,7 +97,7 @@
         </div>
         <div class="pricing-plan__actions">
             <p class="pricing-plan__cost"> $59.99</p>
-            <p class="pricing-plan__text"> Per month</p>
+            <p class="pricing-plan__text"> Per Year</p>
             <a href="./" class="pricing-plan__button">Apply here</a>
         </div>
         </section>
@@ -145,6 +146,65 @@
                     </div>
                 </li>
             </ul>
+        </section>
+
+        <section class="form">
+            <form>
+
+
+                <div>
+                <label for="fname">first name:</label>
+                <input type="text" name="fname" id="fname" placeholder="fist name">
+                 </div>
+
+                 <br>
+
+                 <div>
+                <label for="lname">last name:</label>
+                <input type="text" name="lname" id="lname" placeholder="last name">
+                </div>
+
+                <br>
+
+
+                <div>
+                    <label for="email">email:</label>
+                    <input type="email" name="email" id="email" placeholder="Example00@gmail.com">
+                    </div>
+
+
+
+                    <br>
+
+
+                    <label  class=""for="phone">phone # :</label>
+                    <input type="tel" name="phone" id="phone" placeholder="(123)-561-8895">
+                    </div>
+
+                    <br>
+
+                    <div>
+                        <label for="plans">Plans:</label>
+                        <label>US Plan</label>
+                        <input type="radio" name="plan" >
+
+                        <label>International Plan</label>
+                        <input type="radio" name="plan" >
+
+                        <label>All Plans included</label>
+                        <input type="radio" name="plan" >
+                    </div>
+
+
+
+                    <br>
+
+
+                    <div>
+                        <input type="submit">
+                    </div>
+
+            </form>
         </section>
         
 
