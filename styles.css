@@ -172,7 +172,7 @@ footer,p {
 
  .Boxing_Gloves {
     width: 100px;
-    margin-left: 590px;
+    margin-left: 560px;
 }
 
 .pricing-plan {
@@ -331,7 +331,7 @@ input[type=checkbox]{
 
     .Boxing_Gloves {
         width: 100px;
-        margin-left: 285px;
+        margin-left: 255px;
     }
 
     
@@ -380,7 +380,7 @@ input[type=checkbox]{
     }
 
     .form {
-        margin-left: 5px;
+        margin-left: 40px;
         padding-bottom: 25px;
     }
 
@@ -472,6 +472,10 @@ input[type=checkbox]{
     #footer_navs {
         margin-left: -55px;
         white-space: nowrap;
+    }
+
+    .form {
+        margin-left: 0px;
     }
      
 
