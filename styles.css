@@ -298,6 +298,10 @@ input[type=checkbox]{
         color: #000000;
     }
 
+    .pricing-plan__feature {
+        font-family: 'Roboto', sans-serif; 
+    }
+
 
 
 @media screen and (max-width:768px){
