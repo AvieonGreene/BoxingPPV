@@ -7,7 +7,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css" >
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
@@ -21,25 +21,28 @@
 <body>
     <header>
         <h1 class="title">Boxing PPV'S</h1>
-
             <nav>
-                <ul  id="header_navs"class="nav__links">
+                <ul  id="header_navs" class="nav__links">
+                <input type="checkbox" id="checkbox_toggle" />
+                  <label for="checkbox_toggle" class="hamburger">&#9776;</label>
                     <li><a href="#HomePage.html">Home</a></li>
                    <li><a href="#AboutUs.html">About us</a></li> 
                     <li><a href="#Contact.html">Contact</a></li>
                     </ul>   
         </nav>
+
     </header>
 
 
     <div> 
         <h2 class="Greeting">Welome to Boxing PPV's Webiste!</h2>
-        <img  class="Boxing_Gloves"src= "Boxing_image.png" alt="Boxing gloves">
+        <img  class="Boxing_Gloves" src= "Boxing_image.png" alt="Boxing gloves">
+        <h2 class="bottom_Greeting"> A fighters home.</h2>
     </div>
     <section class ="pricing-plan">
     <div class ="pricing-plan__header">
-        <h1 class="pricing-plan__titile"> US Plan</h1>
-         <h2 class="pricing-plan__summary">All US paperviews included.</h2>      
+        <h2 class="pricing-plan__titile"> US Plan</h2>
+         <h3 class="pricing-plan__summary">All US paperviews included.</h3>      
     </div>
     <div class="pricing-plan__description">
         <ul class="pricing-plan__list">
@@ -59,8 +62,8 @@
 
     <section class ="pricing-plan">
         <div class ="pricing-plan__header">
-            <h1 class="pricing-plan__titile"> All Plans Included</h1>
-             <h2 class="pricing-plan__summary">Both Plans included.</h2>      
+            <h2 class="pricing-plan__titile"> All Plans Included</h2>
+             <h3 class="pricing-plan__summary">Both Plans included.</h3>      
         </div>
         <div class="pricing-plan__description">
             <ul class="pricing-plan__list">
@@ -84,8 +87,8 @@
 
     <section class ="pricing-plan">
         <div class ="pricing-plan__header">
-            <h1 class="pricing-plan__titile"> International Plan</h1>
-             <h2 class="pricing-plan__summary">All International paperviews included.</h2>      
+            <h2 class="pricing-plan__titile"> International Plan</h2>
+             <h3 class="pricing-plan__summary">All International paperviews included.</h3>      
         </div>
         <div class="pricing-plan__description">
             <ul class="pricing-plan__list">
@@ -103,6 +106,7 @@
         </section>
 
         <section class="faq">
+            <h2 class="faq_heading">faq</h2>
             <ul class="Story">
                 <li >
                     <label for="first">How we got started? <span>&#x3e;</span></label>
@@ -120,7 +124,7 @@
 
                 <li >
                     <label for="second">How we got into boxing? <span>&#x3e;</span></label>
-                    <input type="radio" name="Story"id="second">
+                    <input type="radio" name="Story" id="second">
                     <div class="content">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
@@ -149,6 +153,7 @@
         </section>
 
         <section class="form">
+            <h2>application form</h2>
             <form>
 
 
@@ -176,23 +181,23 @@
 
                     <br>
 
-
-                    <label  class=""for="phone">phone # :</label>
+                    <div>
+                    <label for="phone">phone # :</label>
                     <input type="tel" name="phone" id="phone" placeholder="(123)-561-8895">
                     </div>
 
                     <br>
 
                     <div>
-                        <label for="plans">Plans:</label>
+                        <label for="Plans">Plans:</label>
                         <label>US Plan</label>
-                        <input type="radio" name="plan" >
+                        <input id="Plans" type="radio" name="plan" >
 
                         <label>International Plan</label>
-                        <input type="radio" name="plan" >
+                        <input id="international_Plans" type="radio" name="plan" >
 
                         <label>All Plans included</label>
-                        <input type="radio" name="plan" >
+                        <input id="All_plans" type="radio" name="plan" >
                     </div>
 
 
@@ -206,12 +211,23 @@
 
             </form>
         </section>
+
+
+        <script type="text/javascript">
+            var scripts = new Array();
+            scripts[0] = "Hope";
+            scripts[1] = "You";
+            scripts[2] = "Enjoyed";
+            scripts[3] = "Your Time!";
+            var str=scripts.join(" : ");
+            document.write(str);
+            </script>
         
 
 
     <footer class="footer">
         <nav>
-            <ul id="footer_navs"class="nav__links">
+            <ul id="footer_navs" class="nav__links">
                 <li><a href="#HomePage.html">Home</a></li>
                <li><a href="#AboutUs.html">About us</a></li> 
                 <li><a href="#Contact.html">Contact</a></li>

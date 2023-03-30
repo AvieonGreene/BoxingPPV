@@ -162,8 +162,9 @@ footer,p {
 .Greeting {
     padding: 25px;
     margin: 10px;
-    margin-left: 445px;
+    margin-left: 385px;
     padding-bottom: 65px;
+    text-transform: uppercase;
 }
 
  .Boxing_Gloves {
@@ -179,7 +180,7 @@ footer,p {
  .faq {
     margin: 100px auto;
     width: 600px;
-    margin-left: 310px;
+    margin-left: 330px;
 
 }
 
@@ -227,60 +228,62 @@ max-height: 400px;
 }
 
 .form {
-    margin-left: 500px;
-    
+    margin-left: 380px;
+    margin-bottom: 85px;
+    text-transform: uppercase;
+    background-color: #009578;
+    text-align: center;
+    border-radius: 25px;
+    display: table;
 }
 
 .title {
     text-transform: uppercase;
 }
 
-
-.phone {
-padding-bottom: 100px;
-}
-
 .nav__links li:hover {
     background-color: #009578;
     border-radius: 25px;
+}
 
+.bottom_Greeting {
+    margin-left: 525px;
+    text-transform: uppercase;
+    margin-top: 65px;
+    padding-bottom: 5px;
 }
 
 
-
-
-
-
-@media screen and (max-width:600px) {
- 
- 
-    .Greeting {
-        padding: 15px;
-        margin: 10px;
-        margin-left: 25px;
-        padding-bottom: 35px;
-    }
-
-    .Boxing_Gloves {
-        width: 100px;
-        margin-left: 155px;
-    }
-
-    .faq {
-        margin: 100px auto;
-        width: 400px;
-        margin-left: 0px;
-        margin-bottom: 95px;
-    
-    }
-
-    .form {
-        margin-left: 85px;
-        padding-bottom: 25px;
-    }
-
-
+.faq_heading {
+    margin-left: 25px;
+    text-transform: uppercase;
+    margin-bottom: 75px;
+    background-color: #009578;
+    text-align: center;
+    border-radius: 25px;
 }
+
+.nav__links:hover {
+   transform: rotate(360deg);
+   transition: all 1s ease-in-out;
+}
+
+
+input[type=checkbox]{
+    display: none;
+}
+
+.hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+    }
+
+
+    script {
+        margin-left: 300px;
+    }
+
 
 @media screen and (max-width:768px){
 
@@ -294,27 +297,113 @@ padding-bottom: 100px;
 
 
     .form {
-        margin-left: 200px;
+        margin-left: 100px;
         padding-bottom: 25px;
     }
 
     .pricing-plan {
         margin-left: 220px;
+        overflow-wrap: break-word;
     }
 
     .Greeting {
         padding: 15px;
         margin: 10px;
-        margin-left: 165px;
+        margin-left: 90px;
         padding-bottom: 35px;
     }
     
 
     .Boxing_Gloves {
         width: 100px;
-        margin-left: 310px;
+        margin-left: 285px;
+    }
+
+    
+    .bottom_Greeting {
+        margin-left: 225px;
+        text-transform: uppercase;
+        margin-top: 65px;
+        padding-bottom: 5px;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 10%;
+        white-space: nowrap;
+    }
+
+   
+}
+
+
+
+@media screen and (max-width:600px) {
+ 
+ 
+    .Greeting {
+        padding: 15px;
+        margin: 10px;
+        margin-left: 20px;
+        padding-bottom: 35px;
+        white-space: nowrap;
+    }
+
+    .Boxing_Gloves {
+        width: 100px;
+        margin-left: 200px;
+    }
+
+    .faq {
+        margin: 100px auto;
+        width: 400px;
+        margin-left: 65px;
+        margin-bottom: 95px;
+    
+    }
+
+    .form {
+        margin-left: 5px;
+        padding-bottom: 25px;
     }
 
 
+    .bottom_Greeting {
+        margin-left: 155px;
+        text-transform: uppercase;
+        margin-top: 40px;
+        padding-bottom: 5px;
+        font-size: 20px;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 10%;
+        white-space: nowrap;
+        margin-left: -50px;
+        font-size: 15px;
+    }
+
+    .pricing-plan {
+        margin-left: 130px;
+        overflow-wrap: break-word;
+    }
+
+    .footer nav{
+        padding: 1rem;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+        z-index: 1;
+        margin-left: -35px;
+    }
+
+    .footer_copyright {
+        margin-left: -10px;
+     }
 
 }
