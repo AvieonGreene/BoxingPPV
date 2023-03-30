@@ -280,9 +280,7 @@ input[type=checkbox]{
     }
 
 
-    script {
-        margin-left: 300px;
-    }
+
 
 
 @media screen and (max-width:768px){
@@ -405,5 +403,59 @@ input[type=checkbox]{
     .footer_copyright {
         margin-left: -10px;
      }
+    }
+
+
+
+     @media screen and (max-width:314px){
+
+        header {
+          font-size: 10pt;
+          margin-left: 10px;
+        }
+
+        #header_navs {
+            display: none;
+        }
+
+        .Greeting {
+            font-size: 10pt;
+            margin-left: -5px;
+        }
+
+
+        
+       .Boxing_Gloves {
+        margin-left: 85px;
+      }
+
+    .bottom_Greeting {
+        margin-left: 75px;
+        font-size: 10pt;
+    }
+
+    .pricing-plan {
+        margin-left: 10px;
+        width: 90%;
+    }
+
+    .pricing-plan__button{
+        margin-left: 35px;
+     }
+
+     .faq_heading {
+        margin-left: -260px;
+    }
+
+    .faq li {
+        margin-left: -100px;
+        width: 70%;
+    }
+    
+    #footer_navs {
+        margin-left: -55px;
+        white-space: nowrap;
+    }
+     
 
 }
