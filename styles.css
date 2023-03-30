@@ -5,12 +5,14 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+    font-family: 'Kanit', sans-serif;
 }
 
 .nav__links li {
     display: inline-block;
     padding: 0px 20px;
     text-transform: uppercase;
+   
 }
 
 .pricing-plan {
@@ -122,6 +124,7 @@ margin-left: 50px;
     padding: 10px;
     border-top: 1px solid #eeeeee;
     flex-direction: column;
+    font-family: 'Kanit', sans-serif;
 }
 
 
@@ -279,7 +282,21 @@ input[type=checkbox]{
     user-select: none;
     }
 
+    p {
+        font-family: 'Roboto', sans-serif; 
+    }
 
+    label {
+        font-family: 'Lilita One', cursive;
+    }
+
+    h2 , h3 {
+        font-family: 'Lilita One', cursive;
+    }
+
+    .pricing-plan__summary , .pricing-plan__titile {
+        color: #000000;
+    }
 
 
 
