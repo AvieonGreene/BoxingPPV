@@ -24,25 +24,26 @@
 </head>
 <body>
     <header>
-        <h1 class="title">Boxing PPV'S</h1>
+        <h1 class="title">Boxing PPV'S World Wide</h1>
             <nav>
                 <ul  id="header_navs" class="nav__links">
                 <input type="checkbox" id="checkbox_toggle" />
                   <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-                    <li><a href="#HomePage.html">Home</a></li>
-                   <li><a href="#AboutUs.html">About us</a></li> 
-                    <li><a href="#Contact.html">Contact</a></li>
+                    <li><a href="HomePage.html">Home</a></li>
+                   <li><a href="AboutUs.html">About us</a></li> 
+                    <li><a href="Contact.html">Contact</a></li>
                     </ul>   
         </nav>
 
     </header>
 
 
-    <div> 
+    <div class="intro"> 
         <h2 class="Greeting">Welome to Boxing PPV's Webiste!</h2>
         <img  class="Boxing_Gloves" src= "Boxing_image.png" alt="Boxing gloves">
         <h2 class="bottom_Greeting"> A fighters home.</h2>
     </div>
+    <main>
     <section class ="pricing-plan">
     <div class ="pricing-plan__header">
         <h2 class="pricing-plan__titile"> US Plan</h2>
@@ -67,7 +68,7 @@
     <section class ="pricing-plan">
         <div class ="pricing-plan__header">
             <h2 class="pricing-plan__titile"> All Plans Included</h2>
-             <h3 class="pricing-plan__summary">Both Plans included.</h3>      
+             <h3 class="pricing-plan__summary">Both paperviews included.</h3>      
         </div>
         <div class="pricing-plan__description">
             <ul class="pricing-plan__list">
@@ -108,9 +109,12 @@
             <a href="./" class="pricing-plan__button">Apply here</a>
         </div>
         </section>
-
+    </main>
         <section class="faq">
+            <div class="faq-heading-div">   
             <h2 class="faq_heading">faq</h2>
+            </div>
+            <div class="faq-questions">
             <ul class="Story">
                 <li >
                     <label for="first">How we got started? <span>&#x3e;</span></label>
@@ -154,6 +158,7 @@
                     </div>
                 </li>
             </ul>
+            </div>
         </section>
 
         <section class="form">
@@ -187,7 +192,7 @@
 
                     <div>
                     <label for="phone">phone # :</label>
-                    <input type="tel" name="phone" id="phone" placeholder="(123)-561-8895">
+                    <input type="number" name="phone" id="phone" placeholder="(123)-561-8895">
                     </div>
 
                     <br>
@@ -218,13 +223,7 @@
 
 
         <script type="text/javascript">
-            var scripts = new Array();
-            scripts[0] = "Hope";
-            scripts[1] = "You";
-            scripts[2] = "Enjoyed";
-            scripts[3] = "Your Time!";
-            var str=scripts.join(" : ");
-            document.write(str);
+        
             </script>
         
 

@@ -16,7 +16,7 @@ header {
 }
 
 .pricing-plan {
-    width: 300px;
+    width: 50%;
     border-radius: 25px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0);
     overflow: hidden;
@@ -24,7 +24,7 @@ header {
     font-size: 16px;
     line-height: 1.5;
     color:#fcf5f5;
-    margin: 100px;
+    margin: auto;
     background-color: #009578;
     margin-bottom: 25px;
 }
@@ -37,7 +37,7 @@ header {
 
 .pricing-plan__titile, .pricing-pla__summary {
     margin: 0;
-    text-align: center;
+   
 }
 
 .pricing-plan__titile {
@@ -53,11 +53,13 @@ header {
 
 .pricing-plan__description {
     padding: 25px;
+    
 }
 
 .pricing-plan__list {
     padding: 0;
     margin-right: 0;
+    
 }
 
 .pricing-plan__feature {
@@ -97,7 +99,7 @@ border: 1px solid #009578;
 text-transform: uppercase;
 letter-spacing: 0.02em;
 font-weight: bold;
-margin-left: 50px;
+margin-left: 90px;
 }
 
 .pricing-plan__button:hover {
@@ -122,7 +124,7 @@ margin-left: 50px;
     border-radius: 0;
     width: 100%;
     padding: 10px;
-    border-top: 1px solid #eeeeee;
+    border-top: 1px solid #000000;
     flex-direction: column;
     font-family: 'Kanit', sans-serif;
 }
@@ -147,7 +149,7 @@ nav .nav__links li a {
 }
 
 body {
-    background-color:#1b6a1b;
+    background-color:#a8dadc;
 }
 
 footer,p {
@@ -165,14 +167,13 @@ footer,p {
 .Greeting {
     padding: 25px;
     margin: 10px;
-    margin-left: 385px;
     padding-bottom: 65px;
     text-transform: uppercase;
 }
 
  .Boxing_Gloves {
     width: 100px;
-    margin-left: 560px;
+    padding-bottom: 50px;
 }
 
 .pricing-plan {
@@ -181,9 +182,11 @@ footer,p {
 }
 
  .faq {
-    margin: 100px auto;
-    width: 600px;
-    margin-left: 330px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 
 }
 
@@ -224,6 +227,7 @@ line-height: 26px;
 max-height:0;
 overflow: hidden;
 transition: max-height 0.5s;
+
 }
 
 .faq label + input[type="radio"]:checked + .content{
@@ -231,13 +235,21 @@ max-height: 400px;
 }
 
 .form {
-    margin-left: 380px;
-    margin-bottom: 85px;
+    /*
+    margin-left: 580px;
+    margin-bottom: 85px; */
     text-transform: uppercase;
     background-color: #009578;
     text-align: center;
-    border-radius: 25px;
-    display: table;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .title {
@@ -250,20 +262,22 @@ max-height: 400px;
 }
 
 .bottom_Greeting {
-    margin-left: 525px;
+    display: flex;
+    margin-top: 120px;
+    justify-content: center;
     text-transform: uppercase;
-    margin-top: 65px;
     padding-bottom: 5px;
 }
 
 
 .faq_heading {
-    margin-left: 25px;
+    margin-left: 50px;
     text-transform: uppercase;
     margin-bottom: 75px;
     background-color: #009578;
     text-align: center;
     border-radius: 25px;
+    
 }
 
 .nav__links:hover {
@@ -301,6 +315,28 @@ input[type=checkbox]{
     .pricing-plan__feature {
         font-family: 'Roboto', sans-serif; 
     }
+
+    .intro > h2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    img.Boxing_Gloves {
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+
+
 
 
 
