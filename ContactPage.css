@@ -1,0 +1,31 @@
+.box {
+    background-color: lightslategrey;
+    width: 700px; /* Set the width */
+    height: 500px; /* Set the height */
+    border: 2px solid #333; /* Add a border */
+    padding: 20px; /* Add padding inside the box */
+    margin: auto; /* Add margin outside the box */
+    margin-top: 40px;
+    border-radius: 5%;
+}
+
+h2 {
+    padding-left: 50px;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px black solid;
+    margin-bottom: 20px;
+}
+input {
+    border-radius: 15px;
+    background-color:lightslategray;
+    color: black;
+}
+
+::-webkit-input-placeholder { font-size: 16pt; color: black; }

@@ -9,6 +9,18 @@
 
     <link rel="stylesheet" href="styles.css" />
 
+    <link rel="stylesheet" href="ContactPage.css" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;700&family=Lato:wght@300;400;700&&family=Roboto:wght@300;400;700&family=Lilita+One&family=Roboto:wght@300;400;700&display=swap');;
+        </style>
+
 
     <title>Contact</title>
 
@@ -18,12 +30,31 @@
         <h1>Contact</h1>
             <nav>
                 <ul class="nav__links">
-                    <li><a href="#HomePage.html">Home</a></li>
-                   <li><a href="#AboutUs.html">About us</a></li> |
-                    <li><a href="#Contact.html">Contact page</a></li>
+                    <li><a href="/HomePage.html">Home</a></li>
+                   <li><a href="/AboutUs.html">About us</a></li> |
+                    <li><a href="/Contact.html">Contact page</a></li>
                     </ul>
         </nav>
     </header>
-    
+    <div class="box">
+        <h2>Get in touch</h2>
+        <div>
+            <form name="form" id="form"  method="GET">
+
+                <input type="text"  id="fname" name="fname" placeholder="Your name" required>
+                <input type="text" id="email" name="email" placeholder="Your email" required >
+                <input type="number" id="numb" name="numb" placeholder="Phone Number (8027238845)" required>
+                <textarea name="message_tab" id="textarea" cols="63" rows="10" placeholder="Write text here!"></textarea>
+                <input type="submit" value="submit" id="submit">
+                
+
+            </form>
+            <div id="error"> </div>
+        </div>
+
+    </div> 
+
+    <script src="form.JS"></script>
+
 </body>
 </html>
