@@ -41,8 +41,9 @@ nav .nav__links-AB li a {
         margin:auto;
         max-width: 15%;
         height: auto;
-        padding-top: 40px;
-        padding-left: 100px;
+        margin-left: 100px;
+        border-radius: 10px 10px 10px 10px; 
+        border: black 10px solid;
       }
 
       h2,h3 {
@@ -50,15 +51,16 @@ nav .nav__links-AB li a {
         padding-top: 40px;
       }
 
-     
 
-      .boxing-pic-1 {
-      padding-left: 200px;
+      .boxing-pic-2 {
+        height: 360px;
 
       }
 
-      .boxing-pic-2 {
-        height: px;
+
+      .boxing-pic-3 {
+        height: 300px;
+
       }
 
    
@@ -73,6 +75,11 @@ nav .nav__links-AB li a {
         justify-content: center;
         flex-direction: column;
     }
+
+    .boxing-pic-1:hover {
+      transition: 1s;
+      left: 0;
+  }
       
     
 

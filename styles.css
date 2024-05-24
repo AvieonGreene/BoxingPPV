@@ -15,6 +15,8 @@ header {
    
 }
 
+
+
 .pricing-plan {
     width: 50%;
     border-radius: 25px;
@@ -169,6 +171,7 @@ footer,p {
     margin: 10px;
     padding-bottom: 65px;
     text-transform: uppercase;
+    padding-top: 10px;
 }
 
  .Boxing_Gloves {
@@ -261,6 +264,12 @@ max-height: 400px;
     border-radius: 25px;
 }
 
+a:is(:link, :active, :visited).active {
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+
 .bottom_Greeting {
     display: flex;
     margin-top: 120px;
@@ -277,8 +286,9 @@ max-height: 400px;
     background-color: #009578;
     text-align: center;
     border-radius: 25px;
-    
 }
+    
+
 
 .nav__links:hover {
    transform: rotate(360deg);
