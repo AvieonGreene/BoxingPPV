@@ -101,7 +101,7 @@ border: 1px solid #009578;
 text-transform: uppercase;
 letter-spacing: 0.02em;
 font-weight: bold;
-margin-left: 90px;
+margin-left: 115px;
 }
 
 .pricing-plan__button:hover {
@@ -176,7 +176,8 @@ footer,p {
 
  .Boxing_Gloves {
     width: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 280px;
+    
 }
 
 .pricing-plan {
