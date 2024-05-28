@@ -16,11 +16,13 @@ async function sendData() {
   }
 }
 
-// Take over form submission
+/* Take over form submission
 form.addEventListener("submit", (event) => {
   event.preventDefault();
   sendData();
 });
+
+/*
 
 
 
@@ -48,3 +50,12 @@ if (messages.length > 0) {
 }
 })
 */
+
+$.ajax({
+  type: "post",
+  url: "send.php",
+  data: {name: $('#name').val(), email: $('#email').val(), message: $('#msg').val()},
+  success: function(result) {
+alert("mail sent!");
+  }
+});
