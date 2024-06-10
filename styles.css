@@ -1,3 +1,8 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
 
 
 header {
@@ -6,6 +11,10 @@ header {
     align-items: center;
     padding: 30px 10%;
     font-family: 'Kanit', sans-serif;
+    background: rgb(0,204,170) ;
+    margin: 0;
+    border-bottom: 5px solid #000000;
+    margin-bottom: 100px;
 }
 
 .nav__links li {
@@ -15,6 +24,12 @@ header {
    
 }
 
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
 
 
 .pricing-plan {
@@ -102,11 +117,14 @@ text-transform: uppercase;
 letter-spacing: 0.02em;
 font-weight: bold;
 margin-left: 115px;
+cursor: pointer;
+transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 .pricing-plan__button:hover {
-    background: #000000;
-    color: #ffffff;
+    box-shadow: 0 0 10px 5px rgba(0, 255, 0, 0.7), 0 0 20px 10px rgba(0, 255, 0, 0.5), 0 0 30px 15px rgba(0, 255, 0, 0.3);
+    transform: scale(1.1);
+
 }
 
 .pricing-plan__cost {
@@ -151,7 +169,7 @@ nav .nav__links li a {
 }
 
 body {
-    background-color:#a8dadc;
+    background: linear-gradient(rgb(0,204,170), rgb(0,102,85));
 }
 
 footer,p {
@@ -167,17 +185,16 @@ footer,p {
  }
 
 .Greeting {
-    padding: 25px;
-    margin: 10px;
-    padding-bottom: 65px;
+    
+    margin: 30px;
     text-transform: uppercase;
     padding-top: 10px;
+    text-align: center;
 }
 
  .Boxing_Gloves {
     width: 100px;
-    padding-bottom: 280px;
-    
+    margin-top: -100px; /* Add space between the greeting and the image */
 }
 
 .pricing-plan {
@@ -199,6 +216,7 @@ footer,p {
     width: 100%;
     margin-bottom: 10px;
     background: #009578;
+    border: #000000 2px solid ;
     padding: 10px;
     border-radius: 4px;
     box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0, 0.15);
@@ -244,6 +262,7 @@ max-height: 400px;
     margin-bottom: 85px; */
     text-transform: uppercase;
     background-color: #009578;
+    border: #000000 2px solid ;
     text-align: center;
     border-radius: 10px;
     display: block;
@@ -256,11 +275,27 @@ max-height: 400px;
     padding-bottom: 15px;
 }
 
+@keyframes changewidth {
+    0% {
+        left: 0;
+        transform: translateX(0);
+      }
+      25% {
+        left: 50%;
+        transform: translateX(-20%);
+      }
+  }
+
 .title {
     text-transform: uppercase;
     text-shadow: 0 1px 0 #009578, 0 2px 0 #009578,
     0 7px 0 #009578, 0 8px 0 #009578,
     0 11px 0 #009578, 0 12px 0 #009578;
+    animation-duration: 0.1s;
+    animation-name: changewidth;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+    animation-delay: 2s;
 }
 
 .nav__links li:hover {
@@ -276,7 +311,6 @@ a:is(:link, :active, :visited).active {
 
 .bottom_Greeting {
     display: flex;
-    margin-top: 120px;
     justify-content: center;
     text-transform: uppercase;
     padding-bottom: 5px;
@@ -288,6 +322,7 @@ a:is(:link, :active, :visited).active {
     text-transform: uppercase;
     margin-bottom: 75px;
     background-color: #009578;
+    border: #000000 2px solid ;
     text-align: center;
     border-radius: 25px;
 }
@@ -336,13 +371,10 @@ input[type=checkbox]{
     }
 
     img.Boxing_Gloves {
-    position: absolute;
-    top: 50px;
-    bottom: 0;
-    left: 0;
-    right: 0;
     margin: auto;
 }
+
+    
 
 main {
     display: flex;
